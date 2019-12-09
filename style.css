@@ -1,48 +1,73 @@
 body {
-  color: rgba(0, 0, 0, 0.5);
   font-family: "Karla", sans-serif;
+  font-weight: 600;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 0.5em;
   margin: 0;
-  background: linear-gradient(to right, #ff00f2, #0df9ff);
+  letter-spacing: 0.5em;
+  color: rgba(0, 0, 0, 0.5);
+  background: linear-gradient(to right, #3478cb, #b929c9);
 }
 
-/* Header */
-#main_header {
-  font: 600 3.5em "Karla", sans-serif;
+#_header {
+  margin-top: 20px;
+  font-weight: 600;
+  font-size: 3.5em;
 }
 
-/* Color pickers */
-#color1,
-#color2 {
-  border: none;
-  border-color: transparent;
+#c1,
+#c2 {
+  margin-top: 50px;
+  border-radius: 3.5px;
 }
 
-/* Down arrow */
-#down {
-  opacity: 0.5;
+#prop {
+  margin-top: 50px;
 }
 
-/* CSS property display */
-h3 {
+#css-prop-display {
   font-family: "Source Code Pro", monospace;
   font-weight: 900;
   font-size: 1em;
   letter-spacing: 0em;
   text-transform: lowercase;
+  margin-top: 15px;
 }
 
-/* Footer */
-.fixed {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 2.5em;
+#down {
+  opacity: 0.5;
 }
 
-.fixed a {
+.fixed-bottom {
+  text-transform: none;
+  margin-bottom: 10px;
+  letter-spacing: 0.2em;
+}
+
+.fixed-bottom a,
+.github-icon a {
   text-decoration: none;
-  color: inherit;
+  color: black;
+  opacity: 0.6;
+}
+
+.fixed-bottom a:hover,
+.github-icon a:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 576px) {
+  body {
+    font-family: "Karla", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 0.5em;
+    color: rgba(0, 0, 0, 0.5);
+    background: linear-gradient(to right, #3478cb, #b929c9);
+  }
+
+  #_header {
+    font-size: 2.5em;
+  }
 }
