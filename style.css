@@ -21,6 +21,22 @@ body {
   border-radius: 3.5px;
 }
 
+.random {
+  display: flex;
+  align-items: center;
+}
+
+.random-icon {
+  height: 32px;
+  width: 32px;
+  margin-top: 40px;
+  opacity: 0.5;
+}
+
+.random-icon:hover {
+  opacity: 0.7;
+}
+
 #prop {
   margin-top: 50px;
 }
@@ -48,7 +64,7 @@ body {
 .github-icon a {
   text-decoration: none;
   color: black;
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .fixed-bottom a:hover,

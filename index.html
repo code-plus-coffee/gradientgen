@@ -1,84 +1,64 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <!-- Favicon by Icons8 -->
-    <link
-      rel="icon"
-      href="https://img.icons8.com/ios/50/000000/circled-g.png"
-      type="image/png"
-    />
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+<head>
+  <!-- Favicon by Icons8 -->
+  <link rel="icon" href="https://img.icons8.com/ios/50/000000/circled-g.png" type="image/png" />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- My stylesheet -->
-    <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap" rel="stylesheet" />
 
-    <title>Gradient Generator</title>
-  </head>
+  <!-- My stylesheet -->
+  <link rel="stylesheet" href="style.css" />
 
-  <body id="body">
-    <div class="container-fluid">
-      <h1 id="_header">Gradient Generator</h1>
+  <title>Gradient Generator</title>
+</head>
 
-      <input id="c1" type="color" value="#3478cb" />
-      <input id="c2" type="color" value="#b929c9" />
+<body id="body">
+  <div class="container-fluid">
+    <h1 id="_header">Gradient Generator</h1>
 
-      <h2 id="prop">CSS Property</h2>
+    <input id="c1" type="color" value="#3478cb" />
+    <input id="c2" type="color" value="#b929c9" />
 
-      <img
-        id="down"
-        src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png"
-      />
-
-      <h3 id="css-prop-display"></h3>
+    <div container="container-fluid random">
+      <img class="random-icon" src="https://img.icons8.com/android/50/000000/shuffle.png">
     </div>
 
-    <div class="fixed-bottom">
-      <a href="https://github.com/code-plus-coffee" target="_blank">Code Plus Coffee</a> • 2019
-      |
-      <a href="https://github.com/code-plus-coffee/gradientgen" target="_blank">
-        <img
-          class="github-icon"
-          src="https://img.icons8.com/material-rounded/24/000000/github.png"
-        />
-      </a>
-    </div>
+    <h2 id="prop">CSS Property</h2>
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
+    <img id="down" src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png" />
 
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <h3 id="css-prop-display"></h3>
+  </div>
+
+  <div class="fixed-bottom">
+    <a href="https://github.com/code-plus-coffee" target="_blank">Code Plus Coffee</a> • 2019
+    |
+    <a href="https://github.com/code-plus-coffee/gradientgen" target="_blank">
+      <img class="github-icon" src="https://img.icons8.com/material-rounded/24/000000/github.png" />
+    </a>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
