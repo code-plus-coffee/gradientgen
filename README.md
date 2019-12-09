@@ -5,9 +5,7 @@ This is a small project developed while learning Web Development. It is minimal 
 
 **TODO**
 
-1. Responsive design.
-2. Add initial color CSS property.
-3. Random gradient generator.
+1. Random gradient generator.
 
 ---
 `Code Plus Coffee • 2019`
