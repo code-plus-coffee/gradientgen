@@ -1,32 +1,84 @@
 <!DOCTYPE html>
 <html>
-    
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Background Gradient Generator</title>
-    <link href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-</head>
+  <head>
+    <!-- Favicon by Icons8 -->
+    <link
+      rel="icon"
+      href="https://img.icons8.com/ios/50/000000/circled-g.png"
+      type="image/png"
+    />
 
-<body id="body">
-    <div class="container">
-        <h1 id="main_header">Background Gradient Generator</h1>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-        <input type="color" name="c1" id="color1" value="#ff00f2">
-        <input type="color" name="c2" id="color2" value="#0df9ff">
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap"
+      rel="stylesheet"
+    />
 
-        <h2 id="css_prop">CSS Property</h2>
-        <img id="down" src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png">
+    <!-- My stylesheet -->
+    <link rel="stylesheet" href="style.css" />
 
-        <h3 id="prop_dis"></h3>
+    <title>Gradient Generator</title>
+  </head>
+
+  <body id="body">
+    <div class="container-fluid">
+      <h1 id="_header">Gradient Generator</h1>
+
+      <input id="c1" type="color" value="#3478cb" />
+      <input id="c2" type="color" value="#b929c9" />
+
+      <h2 id="prop">CSS Property</h2>
+
+      <img
+        id="down"
+        src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png"
+      />
+
+      <h3 id="css-prop-display"></h3>
     </div>
 
-    <footer class="fixed">
-        <a href="https://github.com/code-plus-coffee/gradientgen" target="_blank">THEKM4N</a> • 2019
-    </footer>
+    <div class="fixed-bottom">
+      <a href="https://github.com/code-plus-coffee" target="_blank">Code Plus Coffee</a> • 2019
+      |
+      <a href="https://github.com/code-plus-coffee/gradientgen" target="_blank">
+        <img
+          class="github-icon"
+          src="https://img.icons8.com/material-rounded/24/000000/github.png"
+        />
+      </a>
+    </div>
 
-    <script src="script.js"></script>
-</body>
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
 
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
