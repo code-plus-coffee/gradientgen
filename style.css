@@ -15,14 +15,14 @@ body {
 }
 
 #_header {
-  margin-top: 20px;
+  margin-top: 10px;
   font-weight: 600;
   font-size: 3.5em;
 }
 
 #c1,
 #c2 {
-  margin-top: 50px;
+  margin-top: 25px;
   border-radius: 3.5px;
 }
 
@@ -37,7 +37,7 @@ body {
 .pause-icon {
   height: 32px;
   width: 32px;
-  margin-top: 40px;
+  margin-top: 25px;
   opacity: 0.5;
 }
 
@@ -53,7 +53,7 @@ body {
 }
 
 #prop {
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 #css-prop-display {
