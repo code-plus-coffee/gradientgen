@@ -30,7 +30,7 @@ function setGradient() {
 /* Function to generate random gradients 
     https://stackoverflow.com/a/1484514 */
 function randomGradientGenerator() {
-  body.classList = "";
+  body.classList = "";''
 
   // To toggle back the play button
   if (body.classList != "bg-play") {
