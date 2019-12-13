@@ -9,6 +9,11 @@ body {
   background: linear-gradient(to right, #3478cb, #b929c9);
 }
 
+.white-text {
+  color: white;
+  opacity: 0.5;
+}
+
 #_header {
   margin-top: 20px;
   font-weight: 600;
@@ -24,16 +29,26 @@ body {
 .random {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
-.random-icon {
+.random-icon,
+.play-icon,
+.pause-icon {
   height: 32px;
   width: 32px;
   margin-top: 40px;
   opacity: 0.5;
 }
 
-.random-icon:hover {
+.play-icon {
+  height: 52px;
+  width: 52px;
+}
+
+.random-icon:hover,
+.play-icon:hover,
+.pause-icon:hover {
   opacity: 0.7;
 }
 
@@ -52,6 +67,61 @@ body {
 
 #down {
   opacity: 0.5;
+}
+
+.bg-play {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+
+  -webkit-animation: bg-animation 5s ease infinite;
+  -moz-animation: bg-animation 5s ease infinite;
+  -o-animation: bg-animation 5s ease infinite;
+  animation: bg-animation 5s ease infinite;
+}
+
+@-webkit-keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-o-keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes bg-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .fixed-bottom {
