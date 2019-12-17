@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap");
+
 body {
   font-family: "Karla", sans-serif;
   font-weight: 600;
@@ -22,7 +24,7 @@ body {
 
 #c1,
 #c2 {
-  margin-top: 25px;
+  margin-top: 20px;
   border-radius: 3.5px;
 }
 
@@ -37,7 +39,7 @@ body {
 .pause-icon {
   height: 32px;
   width: 32px;
-  margin-top: 25px;
+  margin-top: 20px;
   opacity: 0.5;
 }
 
@@ -53,7 +55,24 @@ body {
 }
 
 #prop {
-  margin-top: 25px;
+  font-weight: 700;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+#copy {
+  letter-spacing: 1.5px;
+  font-weight: 900;
+  background: none;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border: none;
+  text-transform: uppercase;
+  margin-top: 10px;
+  opacity: 0.5;
+}
+
+#copy:hover {
+  opacity: 0.7;
 }
 
 #css-prop-display {
@@ -71,7 +90,7 @@ body {
 
 .bg-play {
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-  background-size: 400% 400%;
+  background-size: 500% 500%;
 
   -webkit-animation: bg-animation 5s ease infinite;
   -moz-animation: bg-animation 5s ease infinite;

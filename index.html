@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <!-- Favicon by Icons8 -->
-  <link rel="icon" href="https://img.icons8.com/ios/50/000000/circled-g.png" type="image/png" />
+<head></head>
+<!-- Favicon by Icons8 -->
+<link rel="icon" href="https://img.icons8.com/ios/50/000000/circled-g.png" type="image/png" />
 
-  <!-- Meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <meta name="description" content="A minimal gradient generator with CSS property." />
-  <meta name="description" content="Author: Code Plus Coffee, Category: Tools" />
+<!-- Meta tags -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+<meta name="description" content="A minimal gradient generator with CSS property." />
+<meta name="description" content="Author: Code Plus Coffee, Category: Tools" />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link href="https://fonts.googleapis.com/css?family=Karla|Source+Code+Pro&display=swap" rel="stylesheet" />
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <!-- My stylesheet -->
-  <link rel="stylesheet" href="style.css" />
+<!-- My stylesheet -->
+<link rel="stylesheet" href="style.css" />
 
-  <title>Gradient Generator</title>
+<title>Gradient Generator</title>
 </head>
 
 <body id="body">
@@ -30,8 +29,9 @@
     <input aria-label="Color 2" id="c2" type="color" value="#b929c9" />
 
     <div container="container-fluid random">
-      <img alt="Randomize icon" class="random-icon" src="https://img.icons8.com/material-rounded/48/000000/circular-arrows.png">
-      <img alt="Play icon" class="play-icon" src="https://img.icons8.com/material-rounded/90/000000/play--v1.png">
+      <img alt="Randomize icon" class="random-icon"
+        src="https://img.icons8.com/material-rounded/48/000000/circular-arrows.png" />
+      <img alt="Play icon" class="play-icon" src="https://img.icons8.com/material-rounded/90/000000/play--v1.png" />
     </div>
 
     <h2 id="prop">CSS Property</h2>
@@ -39,6 +39,10 @@
     <img alt="Down arrow icon" id="down" src="https://img.icons8.com/material-sharp/24/000000/expand-arrow.png" />
 
     <h3 id="css-prop-display"></h3>
+
+    <button type="button" id="copy">
+      <img id="clipboard" src="https://img.icons8.com/material-rounded/24/000000/clipboard.png" />
+    </button>
   </div>
 
   <div class="fixed-bottom">
@@ -49,12 +53,12 @@
     </a>
     •
     <a rel="noopener" href="https://icons8.com" target="_blank">
-      <img src="https://img.icons8.com/material-two-tone/24/000000/icons8-new-logo.png">
+      <img src="https://img.icons8.com/material-two-tone/24/000000/icons8-new-logo.png" />
     </a>
   </div>
 
   <!-- JavaScript -->
-  <script src="script.js"></script>
+  <script src="app.js"></script>
 
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
